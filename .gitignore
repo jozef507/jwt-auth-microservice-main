@@ -7,3 +7,4 @@ microprofile-config.properties
 .gitattributes
 .project
 .classpath
+jwt-auth-microservice.iml
