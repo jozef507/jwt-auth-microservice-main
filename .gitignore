@@ -1,0 +1,9 @@
+*~
+target/
+privateKey.pem
+microprofile-config.properties
+.settings/
+.idea/
+.gitattributes
+.project
+.classpath
