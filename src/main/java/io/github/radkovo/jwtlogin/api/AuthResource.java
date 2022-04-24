@@ -20,21 +20,13 @@ import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
+import io.github.radkovo.jwtlogin.dao.OauthUserService;
+import io.github.radkovo.jwtlogin.data.*;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 import io.github.radkovo.jwtlogin.JwtTokenGenerator;
 import io.github.radkovo.jwtlogin.dao.LogService;
 import io.github.radkovo.jwtlogin.dao.UserService;
-import io.github.radkovo.jwtlogin.data.CaptchaResponse;
-import io.github.radkovo.jwtlogin.data.Credentials;
-import io.github.radkovo.jwtlogin.data.LogEntry;
-import io.github.radkovo.jwtlogin.data.MessageResponse;
-import io.github.radkovo.jwtlogin.data.PasswordChallenge;
-import io.github.radkovo.jwtlogin.data.RegisterUserDTO;
-import io.github.radkovo.jwtlogin.data.ResultResponse;
-import io.github.radkovo.jwtlogin.data.TokenResponse;
-import io.github.radkovo.jwtlogin.data.User;
-import io.github.radkovo.jwtlogin.data.UserDTO;
 import io.github.radkovo.jwtlogin.service.MailerService;
 
 
@@ -52,6 +44,9 @@ public class AuthResource
     
     @Inject
     UserService userService;
+
+    @Inject
+    OauthUserService oauthUserService;
     
     @Inject
     LogService logService;
