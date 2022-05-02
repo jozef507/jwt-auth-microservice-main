@@ -110,8 +110,8 @@ public class OauthUtils {
     public String obtainGithubAccessToken(String code) throws IOException {
         URL url = new URL(GITHUB_URL_TOKEN);
         Map<String,Object> params = new LinkedHashMap<>();
-        params.put("client_id", "7612bd191fbfe3b29805");
-        params.put("client_secret", "484fcbf73a9fe575fe73f85acbcc2d87be46db1d");
+        params.put("client_id", githubClientId);
+        params.put("client_secret", githubClientSecret);
         params.put("code", code);
         params.put("redirect_uri", backendOauthUrl+"oauth/github-redirect");
 
