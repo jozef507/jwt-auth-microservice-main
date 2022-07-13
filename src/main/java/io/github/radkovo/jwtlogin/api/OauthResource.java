@@ -28,7 +28,7 @@ import java.util.UUID;
 
 
 /**
- * @author xondri05
+ * @author Jozef Ondria
  *
  */
 
