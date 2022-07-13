@@ -12,10 +12,9 @@ import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
-
 /**
+ * @author Jozef Ondria
  *
- * @author xondri05
  */
 public class OauthUserService {
     private static final Set<String> defaultRoles = Set.of(Roles.USER);
