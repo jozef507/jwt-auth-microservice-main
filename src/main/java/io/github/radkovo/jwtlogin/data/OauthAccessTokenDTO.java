@@ -5,8 +5,8 @@ import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 
 /**
+ * @author Jozef Ondria
  *
- * @author xondri05
  */
 public class OauthAccessTokenDTO {
 
