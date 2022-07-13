@@ -4,8 +4,8 @@ import javax.persistence.*;
 import java.util.Set;
 
 /**
+ * @author Jozef Ondria
  *
- * @author xondri05
  */
 
 @Entity
