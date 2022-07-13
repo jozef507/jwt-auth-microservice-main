@@ -1,3 +1,8 @@
+/**
+ * @author Jozef Ondria
+ *
+ */
+
 package io.github.radkovo.jwtlogin.data;
 
 public class GithubUserInfo {
