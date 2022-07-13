@@ -5,7 +5,7 @@ import java.util.Set;
 import io.github.radkovo.jwtlogin.data.OauthUserDTO;
 
 /**
- * @author xondri05
+ * @author Jozef Ondria
  *
  */
 
