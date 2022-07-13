@@ -5,9 +5,8 @@ import javax.persistence.ElementCollection;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Set;
-
 /**
- * @author xondri05
+ * @author Jozef Ondria
  *
  */
 
