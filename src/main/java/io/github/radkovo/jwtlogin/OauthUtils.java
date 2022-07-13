@@ -26,7 +26,7 @@ import java.net.*;
 import java.util.*;
 
 /**
- * @author xondri05
+ * @author Jozef Ondria
  *
  */
 
