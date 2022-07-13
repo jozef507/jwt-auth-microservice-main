@@ -10,10 +10,9 @@ import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
-
 /**
+ * @author Jozef Ondria
  *
- * @author xondri05
  */
 
 public class OauthAccessTokenService {
