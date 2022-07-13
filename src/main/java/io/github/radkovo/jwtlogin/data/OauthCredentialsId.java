@@ -1,7 +1,7 @@
 package io.github.radkovo.jwtlogin.data;
 
 /**
- * @author xondri05
+ * @author Jozef Ondria
  *
  */
 public class OauthCredentialsId {
